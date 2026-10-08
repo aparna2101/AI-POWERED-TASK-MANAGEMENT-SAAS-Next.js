@@ -2,9 +2,9 @@
 
 Next-generation AI-powered task management workspace built with Next.js, Three.js, TailwindCSS, and Web Audio API.
 
-🌐 **Live Demo**: [https://ai-powered-saas-project-pied.vercel.app/](https://ai-powered-saas-project-pied.vercel.app/)
+🌐 **Live Demo**: [https://ai-powered-saas-project-a88osv0dv-aparna-chaurasias-projects.vercel.app/](https://ai-powered-saas-project-a88osv0dv-aparna-chaurasias-projects.vercel.app/)
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://ai-powered-saas-project-pied.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://ai-powered-saas-project-a88osv0dv-aparna-chaurasias-projects.vercel.app/)
 
 ---
 
