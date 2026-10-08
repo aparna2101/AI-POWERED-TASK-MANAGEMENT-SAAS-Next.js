@@ -150,8 +150,7 @@ export default function CookiesPage() {
                 If you have questions regarding our cookie practices or need assistance with your data preferences, contact our security and compliance office:
               </p>
               <div className="p-5 sm:p-6 rounded-2xl bg-[#081734] border border-cyan-500/30 font-mono text-xs sm:text-sm text-slate-100 space-y-2">
-                <p><strong className="text-cyan-300">Email:</strong> privacy@taskaura.ai</p>
-                <p><strong className="text-cyan-300">Office:</strong> 100 Montgomery St, Suite 2400, San Francisco, CA 94104</p>
+                <p><strong className="text-cyan-300">Email:</strong> <a href="mailto:aparna2112003@gmail.com" className="text-cyan-300 underline">privacy@taskaura.ai</a></p>
                 <p><strong className="text-cyan-300">Response Window:</strong> Within 24 business hours</p>
               </div>
             </section>

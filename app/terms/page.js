@@ -131,8 +131,8 @@ export default function TermsPage() {
                 If you have questions regarding these Terms of Service or require enterprise terms negotiation, please contact our legal counsel:
               </p>
               <div className="p-5 sm:p-6 rounded-2xl bg-[#081734] border border-cyan-500/30 font-mono text-xs sm:text-sm text-slate-100 space-y-2">
-                <p><strong className="text-cyan-300">Legal Inquiries:</strong> legal@taskaura.ai</p>
-                <p><strong className="text-cyan-300">Corporate Address:</strong> 100 Montgomery St, Suite 2400, San Francisco, CA 94104</p>
+                <p><strong className="text-cyan-300">Legal & Support:</strong> <a href="mailto:aparna2112003@gmail.com" className="text-cyan-300 underline">legal@taskaura.ai</a></p>
+                <p><strong className="text-cyan-300">Response Time:</strong> Within 24 hours</p>
               </div>
             </section>
 

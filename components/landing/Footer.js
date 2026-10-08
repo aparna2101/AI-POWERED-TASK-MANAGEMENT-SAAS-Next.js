@@ -3,8 +3,6 @@
 import Link from "next/link";
 import TaskAuraLogo from "@/components/ui/TaskAuraLogo";
 import {
-  MapPin,
-  Phone,
   Mail,
   ArrowRight,
   Heart,
@@ -176,12 +174,12 @@ export default function Footer({ onOpenAuth }) {
             </ul>
           </div>
 
-          {/* RIGHT SIDE: HEADQUARTERS & CONTACT (2 cols on mobile, 1 col on md, 3 cols on lg) */}
+          {/* RIGHT SIDE: CONTACT & SUPPORT (2 cols on mobile, 1 col on md, 3 cols on lg) */}
           <div className="col-span-2 md:col-span-1 lg:col-span-3">
             <h4 className="h-6 text-xs font-bold uppercase tracking-wider text-slate-900 mb-3.5 font-mono flex items-center justify-between">
               <span className="flex items-center gap-1.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-600" />
-                <span>Headquarters</span>
+                <span>Contact & Support</span>
               </span>
               <span className="text-[10px] font-mono px-2 py-0.5 rounded-md bg-cyan-900/10 text-cyan-950 border border-cyan-600/30 font-bold tracking-normal normal-case leading-none">
                 24/7 Live
@@ -189,34 +187,15 @@ export default function Footer({ onOpenAuth }) {
             </h4>
 
             <div className="space-y-3 text-xs text-slate-700">
-              <div className="flex items-start gap-2.5 py-1">
-                <MapPin className="w-4 h-4 text-cyan-800 shrink-0 mt-0.5" />
-                <div className="leading-snug">
-                  <span className="font-semibold text-slate-900 block text-xs sm:text-sm">100 Montgomery St, Suite 2400</span>
-                  <span className="text-slate-600 block text-xs sm:text-sm">San Francisco, CA 94104</span>
-                  <span className="text-[11px] text-slate-500 font-mono block mt-0.5">Hubs: London • Singapore • Bengaluru</span>
-                </div>
-              </div>
+              <p className="text-slate-700 text-xs leading-relaxed">
+                Have questions, collaboration inquiries, or feedback? Feel free to reach out directly anytime.
+              </p>
 
-              <div className="flex items-start gap-2.5 py-0.5">
-                <Phone className="w-4 h-4 text-emerald-800 shrink-0 mt-0.5" />
-                <div className="font-mono text-xs font-semibold text-slate-800 space-y-1">
-                  <div className="flex items-center gap-1.5 flex-wrap">
-                    <span>+1 (415) 890-AURA</span>
-                    <span className="text-[10px] text-slate-500 font-sans font-normal">(Americas)</span>
-                  </div>
-                  <div className="flex items-center gap-1.5 flex-wrap">
-                    <span>+91 80 4129 0088</span>
-                    <span className="text-[10px] text-slate-500 font-sans font-normal">(Global / APAC)</span>
-                  </div>
-                </div>
-              </div>
-
-              <div className="flex items-center gap-2.5 py-0.5">
+              <div className="flex items-center gap-2.5 py-1">
                 <Mail className="w-4 h-4 text-cyan-800 shrink-0" />
                 <a
-                  href="mailto:contact@taskaura.ai"
-                  className="font-mono text-cyan-900 hover:text-cyan-950 font-semibold underline"
+                  href="mailto:aparna2112003@gmail.com"
+                  className="font-mono text-cyan-900 hover:text-cyan-950 font-semibold underline text-xs sm:text-sm"
                 >
                   contact@taskaura.ai
                 </a>
@@ -224,14 +203,14 @@ export default function Footer({ onOpenAuth }) {
             </div>
 
             <div className="pt-2">
-              <Link
-                href="/contact"
+              <a
+                href="mailto:aparna2112003@gmail.com"
                 onClick={handleLinkClick}
                 className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-cyan-900 hover:bg-cyan-950 text-white font-bold text-xs shadow-sm hover:shadow-md transition-all cursor-pointer group"
               >
-                <span>Connect with Engineering</span>
+                <span>Connect via Email</span>
                 <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
-              </Link>
+              </a>
             </div>
           </div>
 
